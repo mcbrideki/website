@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<meta charset="UTF-8">
+<title>Badness 10000</title>
+<link rel="icon" type="image/x-icon" href="../media_badness/favicon.png">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../badness.css">
+<style>
+  #more {display: none;}
+</style>
+<script src=""></script>
+</head>
+<body>
+  <div class ="main">
+
+    <div class="header">
+      <div class="logo">
+        <a href="../badness.html" class="wordmark_link"><img src="../media_badness/badness_header.png" class="wordmark"></a>
+      </div>
+
+      <a href="../knit_crochet/knit_crochet.html" class="button">knit & crochet</a>
+
+      <a href="prints.html" class="button">prints & illustrations</a>
+
+      <a href="../miscellaneous/miscellaneous.html" class="button">miscellaneous</a>
+
+      <!--<a href="../blog/blog.html" class="button">blog</a>-->
+
+    </div>
+
+    <div class="content" id="stuff">
+
+      <figure class="pic">
+        <img src="media_prints/14hrs_lisbon.jpg">
+        <figcaption> 14 Hours in Lisbon Illustration</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/accidental_saami_ill_back.jpg">
+        <figcaption> Accidental Saami Sweater Design (Back)</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/accidental_saami_ill_front.jpg">
+        <figcaption> Accidental Saami Sweater Design (Front)</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/bloodchief_ascension.jpg">
+        <figcaption> Bloodchief Ascension Proxy Art</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/group_orbits_print.jpg">
+        <figcaption> Group Orbits Screen Print</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/group_orbits_ill.jpg">
+        <figcaption> Group Orbits Illustration</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/rf2020_print.jpg">
+        <figcaption> Renn Fayre 2020 Linocut Print (White on Black)</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/rf2020_bw_ill.jpg">
+        <figcaption> Renn Fayre 2020 Illustration (Black & White)</figcaption>
+      </figure>
+
+      <figure class="pic">
+        <img src="media_prints/rf2020_color_ill.jpg">
+        <figcaption> Renn Fayre 2020 Illustration (Color)</figcaption>
+      </figure>
+
+    </div>
+
+    <div class="scrollcontainer">
+      <div  style="object-fit:cover; width:82px;"><img class="scrollbuttons" src="../media_badness/scrollright.png" style="transform:rotateY(180deg);"onclick="leftscroll()" ></div>
+      <div  style="object-fit:cover; width:82px;"><img class="scrollbuttons" src="../media_badness/scrollright.png" onclick="rightscroll()"></div>
+    </div>
+  
+  </div>
+
+  <div class="footer">
+    <div>
+      <a href="../../index.html">< return to kiki</a>
+    </div>
+
+    <div>
+
+    </div>
+
+    <div style="align-self: flex-end;">
+      <a href=""><img src="../media_badness/lotus.png" width="50px"></a>
+    </div>
+  </div>
+
+  <script>
+    function rightscroll() {
+      var element = document.getElementById("stuff");
+      element.scrollLeft += 500;
+    }
+  </script>
+
+  <script>
+    function leftscroll() {
+      var element = document.getElementById("stuff");
+      element.scrollLeft -= 500;
+    }
+  </script>
+
+</body>
+</html>
