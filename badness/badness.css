@@ -257,6 +257,22 @@ scrollbar-width: none;  /* Firefox */
   max-width: 90%;
 }
 
+.pic> a{
+  height: inherit;
+  width: fit-content;
+}
+
+.orchid{
+  max-height: 90%;
+  max-width: 90%;
+}
+
+@media(max-width:980){
+  .pic>a{
+    width: 75%;
+    height:fit-content;
+  }
+}
 
 .footer{
   display:flex;
